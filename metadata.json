@@ -1,0 +1,6 @@
+{
+  "name": "Diagnosticador Compliance SST Vaca Muerta",
+  "description": "Embudo de diagnóstico de cumplimiento en Seguridad e Higiene Laboral para proveedores y empresas operadoras en Vaca Muerta (Neuquén). Genera informe técnico y presupuesto en PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

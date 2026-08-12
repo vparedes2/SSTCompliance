@@ -1,0 +1,36 @@
+<svg viewBox="0 0 340 75" width="340" height="75" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Ring (Charcoal) -->
+  <path
+    d="M 36 12 A 26 26 0 1 0 58 38 A 26 26 0 0 0 55 23"
+    fill="none"
+    stroke="#221f20"
+    stroke-width="6.5"
+    stroke-linecap="round"
+  />
+  <!-- Registered Symbol -->
+  <text x="56" y="14" font-size="7.5" font-weight="bold" fill="#221f20" font-family="Arial, sans-serif">®</text>
+
+  <!-- Inner Flame Drop (Orange) -->
+  <path
+    d="M 36 19 C 36 19 22 32 22 41 C 22 49 28 54 36 54 C 44 54 50 49 50 41 C 50 32 36 19 36 19 Z"
+    fill="#ee7218"
+  />
+  <!-- Inner White Highlight Crescent -->
+  <path
+    d="M 39 26 C 39 26 44 33 44 40 C 44 44 41 47 38 47 C 38 47 42 45 42 40 C 42 34 39 26 39 26 Z"
+    fill="#ffffff"
+  />
+
+  <!-- Vertical Divider Line -->
+  <line x1="72" y1="4" x2="72" y2="70" stroke="#221f20" stroke-width="1.5" />
+
+  <!-- Typography matching exact font hierarchy of Patagonia Consult -->
+  <!-- PATAGONIA -->
+  <text x="84" y="25" font-size="20" font-weight="800" fill="#221f20" font-family="Arial, 'Helvetica Neue', sans-serif" letter-spacing="1">PATAGONIA</text>
+
+  <!-- CONSULT SRL. -->
+  <text x="84" y="47" font-size="20" font-weight="800" fill="#221f20" font-family="Arial, 'Helvetica Neue', sans-serif" letter-spacing="1">CONSULT SRL.</text>
+
+  <!-- Oil & Gas -->
+  <text x="84" y="66" font-size="15" font-weight="600" font-style="italic" fill="#ee7218" font-family="'Georgia', 'Times New Roman', serif">Oil &amp; Gas</text>
+</svg>
