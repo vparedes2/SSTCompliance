@@ -23,6 +23,8 @@ import {
   PhoneCall,
   CheckCircle,
   Info,
+  Mail,
+  Phone,
 } from "lucide-react";
 
 interface Step6Props {
@@ -53,7 +55,7 @@ export const Step6ReportDashboard: React.FC<Step6Props> = ({
     const text = encodeURIComponent(
       `Hola, solicito Primera Revisión Técnica para el Diagnóstico Compliance SST Vaca Muerta de *${result.profile.companyName}* (CUIT: ${result.profile.cuit}). Índice actual: ${result.compliancePercentage}%. Pases operadora target: ${result.profile.targetOperator}.`
     );
-    window.open(`https://wa.me/?text=${text}`, "_blank");
+    window.open(`https://wa.me/5492994109533?text=${text}`, "_blank");
   };
 
   return (
@@ -801,14 +803,22 @@ export const Step6ReportDashboard: React.FC<Step6Props> = ({
             <CheckCircle className="w-4 h-4 text-teal-400 shrink-0" />
             <span>Relevamiento presencial en Añelo / Neuquén</span>
           </div>
-          <div className="flex items-center space-x-2">
-            <CheckCircle className="w-4 h-4 text-teal-400 shrink-0" />
-            <span>Auditoría de requisitos excluyentes SRT</span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <CheckCircle className="w-4 h-4 text-teal-400 shrink-0" />
-            <span>Presupuesto a medida según alcance</span>
-          </div>
+          <a
+            href="https://wa.me/5492994109533"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 hover:text-teal-300 transition-colors"
+          >
+            <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
+            <span className="font-bold">+54 9 299 4109533</span>
+          </a>
+          <a
+            href="mailto:info@patagoniaconsult.com.ar"
+            className="flex items-center space-x-2 hover:text-teal-300 transition-colors"
+          >
+            <Mail className="w-4 h-4 text-amber-400 shrink-0" />
+            <span className="font-bold">info@patagoniaconsult.com.ar</span>
+          </a>
         </div>
       </div>
 

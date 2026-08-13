@@ -34,12 +34,16 @@ export const PDFReportTemplate: React.FC<PDFReportTemplateProps> = ({ result, id
         <div>
           {/* BRAND HEADER LOGO BANNER (PATAGONIA CONSULT SRL) */}
           <div className="flex items-center justify-between pb-3 mb-3" style={{ borderBottom: "2px solid #ee7218" }}>
-            <div className="flex items-center">
+            <div className="flex items-center space-x-3">
               <img
                 src="/patagonia_consult_logo.svg"
                 alt="Patagonia Consult SRL. Oil & Gas"
                 className="h-11 w-auto object-contain"
               />
+              <div className="text-[8.5px] text-slate-600 space-y-0.5 border-l pl-2 border-slate-200">
+                <div className="font-bold text-slate-800">+54 9 299 4109533</div>
+                <div>info@patagoniaconsult.com.ar</div>
+              </div>
             </div>
 
             <div className="text-right space-y-0.5">
@@ -254,7 +258,7 @@ export const PDFReportTemplate: React.FC<PDFReportTemplateProps> = ({ result, id
           style={{ borderTop: "1px solid #e2e8f0", color: "#64748b" }}
         >
           <div>
-            <strong style={{ color: "#ee7218" }}>PATAGONIA CONSULT SRL.</strong> | Oil &amp; Gas — Vaca Muerta
+            <strong style={{ color: "#ee7218" }}>PATAGONIA CONSULT SRL.</strong> | Tel: +54 9 299 4109533 | Email: info@patagoniaconsult.com.ar
           </div>
           <div>Confidencial — Diagnóstico Técnico Preventivo SST</div>
           <div className="font-bold" style={{ color: "#334155" }}>Página 1 de 2</div>
@@ -510,7 +514,7 @@ export const PDFReportTemplate: React.FC<PDFReportTemplateProps> = ({ result, id
           style={{ borderTop: "1px solid #e2e8f0", color: "#64748b" }}
         >
           <div>
-            <strong style={{ color: "#ee7218" }}>PATAGONIA CONSULT SRL.</strong> | Oil &amp; Gas — Vaca Muerta
+            <strong style={{ color: "#ee7218" }}>PATAGONIA CONSULT SRL.</strong> | Tel: +54 9 299 4109533 | Email: info@patagoniaconsult.com.ar
           </div>
           <div>Confidencial — Diagnóstico Técnico Preventivo SST</div>
           <div className="font-bold" style={{ color: "#334155" }}>Página 2 de 2</div>
