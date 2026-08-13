@@ -15,8 +15,7 @@ export const Header: React.FC<HeaderProps> = ({ currentStep, totalSteps, onReset
     "Empresa",
     "Riesgos",
     "Estado",
-    "Contacto",
-    "Informe PDF"
+    "Resultado",
   ];
 
   return (

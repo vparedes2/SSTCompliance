@@ -72,6 +72,7 @@ export interface ContactLead {
   role: string;
   email: string;
   phone: string;
+  preferredContactMethod?: "whatsapp" | "phone" | "videocall";
   acceptedTerms: boolean;
 }
 

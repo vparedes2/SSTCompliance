@@ -44,13 +44,13 @@ export const Step1IndustrySelector: React.FC<Step1Props> = ({
       <div className="text-center max-w-3xl mx-auto">
         <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20 text-xs font-semibold mb-3">
           <Building2 className="w-3.5 h-3.5" />
-          <span>Paso 1 de 6 | Selección de Sector Operativo</span>
+          <span>Paso 1 de 5 | Selección de Sector Operativo</span>
         </div>
         <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
           ¿En qué rubro opera o desea prestar servicios en Vaca Muerta?
         </h1>
         <p className="mt-2 text-sm sm:text-base text-slate-600">
-          Seleccione la categoría principal. El algoritmo adaptar el marco regulatorio (SRT, Decretos 351/79 o 911/96 y exigencias de Operadoras en Neuquén).
+          Seleccione la categoría principal para adaptar automáticamente el marco regulatorio correspondiente (SRT, Decretos 351/79 o 911/96 y exigencias de Operadoras en Neuquén).
         </p>
       </div>
 

@@ -33,7 +33,7 @@ export const Step2CompanyDetails: React.FC<Step2Props> = ({
       <div className="text-center">
         <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20 text-xs font-semibold mb-3">
           <Building className="w-3.5 h-3.5" />
-          <span>Paso 2 de 6 | Datos del Establecimiento & Dotación</span>
+          <span>Paso 2 de 5 | Datos del Establecimiento & Dotación</span>
         </div>
         <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
           Datos Operativos de la Empresa
@@ -53,7 +53,7 @@ export const Step2CompanyDetails: React.FC<Step2Props> = ({
             <input
               type="text"
               required
-              placeholder="Ej: Rio Limay OFS S.A. / Servicios Neuquén"
+              placeholder="Ej: Nombre de su empresa S.A. / Servicios Neuquén"
               value={profile.companyName}
               onChange={(e) => onChangeProfile({ companyName: e.target.value })}
               className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-teal-500 focus:border-teal-500 text-slate-900 text-sm font-medium transition-all"
