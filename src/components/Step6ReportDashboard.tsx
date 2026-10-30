@@ -55,7 +55,7 @@ export const Step6ReportDashboard: React.FC<Step6Props> = ({
     const text = encodeURIComponent(
       `Hola, solicito Primera Revisión Técnica para el Diagnóstico Compliance SST Vaca Muerta de *${result.profile.companyName}* (CUIT: ${result.profile.cuit}). Índice actual: ${result.compliancePercentage}%. Pases operadora target: ${result.profile.targetOperator}.`
     );
-    window.open(`https://wa.me/5492994109533?text=${text}`, "_blank");
+    window.open(`https://wa.me/5492994603071?text=${text}`, "_blank");
   };
 
   return (
@@ -804,13 +804,13 @@ export const Step6ReportDashboard: React.FC<Step6Props> = ({
             <span>Relevamiento presencial en Añelo / Neuquén</span>
           </div>
           <a
-            href="https://wa.me/5492994109533"
+            href="https://wa.me/5492994603071"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 hover:text-teal-300 transition-colors"
           >
             <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
-            <span className="font-bold">+54 9 299 4109533</span>
+            <span className="font-bold">+54 9 299 4603071</span>
           </a>
           <a
             href="mailto:info@patagoniaconsult.com.ar"

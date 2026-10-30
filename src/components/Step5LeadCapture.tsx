@@ -94,9 +94,9 @@ export const Step5LeadCapture: React.FC<Step5Props> = ({
 
   const handleWhatsAppDirect = () => {
     const text = encodeURIComponent(
-      `Hola, realicé el autodiagnóstico de Compliance SST para *${profile.companyName || "mi empresa"}* (CUIT: ${profile.cuit || "no especificado"}). Obtuvimos un resultado preliminar del *${scorePercent}%*. Quisiera hablar con un especialista y coordinar la presentación del informe técnico completo.`
+      `Hola, realicé el autodiagnóstico de Compliance SST para *${profile.companyName || "mi empresa"}* (CUIT: ${profile.cuit || "no especificado"}). Obtuvimos un resultado del *${scorePercent}%* con ${fulfilledCount} de ${ALL_ITEMS.length} requisitos cumplidos. Quisiera conversar y coordinar la presentación del informe técnico completo.`
     );
-    window.open(`https://wa.me/5492994109533?text=${text}`, "_blank");
+    window.open(`https://wa.me/5492994603071?text=${text}`, "_blank");
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -144,7 +144,7 @@ export const Step5LeadCapture: React.FC<Step5Props> = ({
             className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-8 py-3.5 rounded-xl shadow-lg transition-all text-sm cursor-pointer"
           >
             <MessageSquare className="w-5 h-5" />
-            <span>Hablar ahora por WhatsApp (+54 9 299 4109533)</span>
+            <span>Hablar ahora por WhatsApp (+54 9 299 4603071)</span>
           </button>
         </div>
       </div>
